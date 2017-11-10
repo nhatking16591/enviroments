@@ -1,6 +1,0 @@
-FROM centos:7
-RUN yum install -y puppet
-ADD init.sh /init.sh
-ADD king-puppet /etc/king-puppet
-RUN chmod +x /init.sh
-CMD ["/init.sh"]
