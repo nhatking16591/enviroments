@@ -1,0 +1,3 @@
+class fake {
+	include 'common'
+}
